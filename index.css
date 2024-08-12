@@ -44,7 +44,7 @@ body, html {
 	border-radius: 5%;
 }
 
-@media (max-width: 10000px) {
+@media (max-width: 1000px) {
 	.welcome-container {
 		flex-direction: column;
 		align-items: center;
@@ -75,8 +75,7 @@ body, html {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-left: 5vw;
-		margin-right: 5vw;
+		margin: auto !important;
 		gap: 2vw;
 		margin: 0%;
 		width: 85vw;
