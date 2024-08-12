@@ -33,16 +33,18 @@ body, html {
 }
 
 .even-image {
-	width: 40vw;
-	height: 40vh;
+	width: 400px;
+	height: 300px;
+	border-radius: 5%;
 }
 
 .odd-image {
 	width: 40vw;
 	height: 40vh;
+	border-radius: 5%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 	.welcome-container {
 		flex-direction: column;
 		align-items: center;
@@ -56,13 +58,12 @@ body, html {
 		flex-direction: column;
 		text-align: center;
 		margin: 0%;
-		min-width: 80vw;
+		min-width: 80vw !important;
 	}
 	.heading-left {
-		justify-content: center;
-		text-align: center;
+		justify-content: center !important;
+		text-align: center !important;
 		margin: 0%;
-		min-width: 80vw;
 	}
 
 	.text-left {
@@ -78,11 +79,13 @@ body, html {
 		margin-right: 5vw;
 		gap: 2vw;
 		margin: 0%;
-		min-width: 80vw;
+		width: 85vw;
 	}
 	.even-image{ 
-		width: 90vw;
+		width: 85vw;
 		height: 40vh;
+		border-radius: 5%;
+		margin: 0% !important;
 	}
 	.odd-image {
 		width: 90vw;
@@ -98,17 +101,31 @@ body, html {
 		margin: 0%;
 		min-width: 80vw;
 	}
+	.title{
+		text-align: center;
+		margin: auto;
+
+	}
 	.skills {
 		white-space: pre-wrap;
 		flex-grow: 1;
 		min-width: 80vw;
+		text-align: center;
+		margin: auto;
 	}
 	
 	.desc {
 		white-space: pre-wrap;
 		flex-grow: 1;
-		min-width: 80vw;
+		max-width: 50vw !important;
+		text-align: center !important;
 	}
+	.child-container{
+		margin-top: 20px;
+		width: 80vw !important;
+		justify-content: center;
+		align-items: center;
+	}	
   }
 
 .intro {
@@ -124,13 +141,13 @@ body, html {
 
 .welcome-container {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	animation-name: intro;
 	animation-duration: 3s;
 	gap: 2vw;
 	margin-top: 2%;
-	margin-left: 5vw;
-	margin-right: 5vw;
+	width: 100vw;
 }
 
 .contact-container {
@@ -140,6 +157,8 @@ body, html {
 	background-color: #545454;
 	padding: 10px;
 	border-radius: 25px;
+	min-width: 300px;
+	max-width: 300px;
 	height: fit-content;
 }
 
@@ -162,6 +181,7 @@ body, html {
 .welcome-left {
 	display: flex;
 	flex-direction: column;
+	min-width: 30vw;
 	max-width: 30vw;
 	margin-top: 0px;
 	animation-name: intro;
@@ -187,8 +207,10 @@ body, html {
 }
 
 .me {
-	width: 600px;
-	height: 300px;
+	width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
 	animation-name: intro;
 	animation-duration: 3s;
 }
@@ -203,7 +225,6 @@ body, html {
 	margin-right: 5vw;
 	gap: 2vw;
 	background-color: #545454 !important;
-	padding: 10px;
 	border-radius: 25px;
 	position: relative;
 }
@@ -224,7 +245,7 @@ body, html {
 .skills {
 	white-space: pre-wrap;
   	flex-grow: 1;
-  	width: 20vw;
+  	width: 10vw;
 	min-width: 100px;
 }
 
@@ -232,10 +253,16 @@ body, html {
 	white-space: pre-wrap;
   	flex-grow: 1;
   	max-width: 30vw;
+	margin-top: 10px;
 }
 
 .extra-space {
 	margin-top: 5vh;
+}
+
+.child-container{
+	margin-top: 10px;
+	padding: 10px;
 }
 
 .background {
