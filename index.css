@@ -86,8 +86,8 @@ body, html {
 		width: 85vw !important;
 	}
 	.even-image{ 
-		width: 350px !important;
-		height: 300px;
+		width: 70vw !important;
+		height: 40vh;
 		border-radius: 5%;
 		margin-top: auto;
 		margin-bottom: auto;
@@ -95,8 +95,8 @@ body, html {
 		margin-left: auto;
 	}
 	.odd-image {
-		width: 350px !important;
-		height: 300px;
+		width: 70vw !important;
+		height: 40vh;
 		margin-top: auto;
 		margin-bottom: auto;
 		margin-right: auto;
