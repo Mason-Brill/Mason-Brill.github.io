@@ -32,13 +32,13 @@ body, html {
 }
 
 .even-image {
-	width: 300px;
+	width: 350px;
 	height: 300px;
 	border-radius: 5%;
 }
 
 .odd-image {
-	width: 500px;
+	width: 350px;
 	height: 300px;
 	border-radius: 5%;
 }
@@ -80,13 +80,13 @@ body, html {
 		width: 85vw !important;
 	}
 	.even-image{ 
-		width: 85vw !important;
+		width: 350px !important;
 		height: 300px;
 		border-radius: 5%;
 		margin: 0% !important;
 	}
 	.odd-image {
-		width: 85vw;
+		width: 350px !important;
 		height: 300px;
 	}
 	.odd-class {
@@ -230,22 +230,20 @@ body, html {
 
 .odd-class {
 	display: flex;
-	margin-left: 5vw;
-	margin-right: 5vw;
+	margin:auto;
 	gap: 2vw;
 	background-color: #545454 !important;
-	padding: 10px;
 	border-radius: 25px;
-	width: auto;
-	height: auto;
 	position: relative;
+	width: 95vw;
 }
 
 .skills {
 	white-space: pre-wrap;
+	font-size: 12pt;
   	flex-grow: 1;
   	width: 10vw;
-	min-width: 100px;
+	min-width: 150px;
 }
 
 .desc {
