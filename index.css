@@ -35,12 +35,18 @@ body, html {
 	width: 350px;
 	height: 300px;
 	border-radius: 5%;
+	margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
 }
 
 .odd-image {
 	width: 350px;
 	height: 300px;
 	border-radius: 5%;
+	margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 1000px) {
@@ -83,11 +89,18 @@ body, html {
 		width: 350px !important;
 		height: 300px;
 		border-radius: 5%;
-		margin: 0% !important;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.odd-image {
 		width: 350px !important;
 		height: 300px;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.odd-class {
 		display: flex;
@@ -98,6 +111,7 @@ body, html {
 		gap: 2vw;
 		margin: 0%;
 		min-width: 80vw;
+		width: 85vw !important;
 	}
 	.title{
 		text-align: center;
